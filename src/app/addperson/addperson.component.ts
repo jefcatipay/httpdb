@@ -9,7 +9,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./addperson.component.css']
 })
 export class AddpersonComponent implements OnInit {
-  baseURL = 'https://first-project-21048.firebaseio.com';
+  baseURL = 'https://test-aaee8.firebaseio.com';
   rootNode = 'people';
   dataCollection: IPerson[];
 
